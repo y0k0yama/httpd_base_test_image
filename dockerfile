@@ -1,4 +1,4 @@
-FROM httpd-24-centos7:latest
+FROM docker.io/centos/httpd-24-centos7:latest
 
 RUN mkdir /etc/httpd/conf/extra
 
